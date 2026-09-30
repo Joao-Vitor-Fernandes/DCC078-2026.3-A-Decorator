@@ -1,6 +1,6 @@
 package padroesestruturais.decorator;
 
-public class MemoriaExtra implements ServicoCloudDecorator{
+public class MemoriaExtra extends ServicoCloudDecorator{
 
     public MemoriaExtra(ServicoCloud servico) {
         super(servico);

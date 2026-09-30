@@ -1,6 +1,6 @@
 package padroesestruturais.decorator;
 
-public class SuportePremium implements ServicoCloudDecorator {
+public class SuportePremium extends ServicoCloudDecorator {
 
     public SuportePremium(ServicoCloud servico) {
         super(servico);
